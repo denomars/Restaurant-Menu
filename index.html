@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Over-Top One Restaurant</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                font-size: 13pt;
+            }
+
+            img {
+                border: 7px solid black;
+            }
+
+            #header-img {
+                border: 7px solid orange;
+                width: 350px;
+            }
+
+            h1 {
+                color: black;
+                text-align: center;
+            }
+
+            li {
+               display: inline;
+            }
+
+            hr {
+                width: 100%;
+                border: solid orange;
+                
+            }
+
+            footer {
+                text-align: center;
+            }
+
+            #checkout {
+                font-size: 12pt;
+            }
+
+            #menu-number {
+                width: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Over-Top One Restaurant</h1>
+            <br>
+            <nav>
+                <ul>
+                    <li><a href="#menu-section">Menu</a></li>
+                    <br><br>
+                    <li><a href="#order-form">Order</a></li>
+                </ul>
+                <br>
+            <img id="header-img" src="https://static.vecteezy.com/system/resources/previews/016/133/291/original/simple-illustration-of-food-delivery-and-restaurant-logo-design-inspiration-icon-vector.jpg" alt="Our Resturants Image and the type of food we will be serving">
+            <br><br>
+        </header>
+        <main>
+            <section>
+                <h2 id="menu-section">Menu</h2>
+                <hr/>
+                <br>
+                <article>
+                   <h3>Buffalo Mild Chicken Wings 1 </h3>
+                   <br>
+                   <img src="https://www.allrecipes.com/thmb/peyvJN1tiQ42KsZTPx5QKKL3qiE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/24087-restaurant-style-buffalo-chicken-wings-DDMFS-4x3-861e36c713264f3a9db8ba02d3afbea1.jpg" width="350" alt="Buffalo Mild Chicken with ranch on the side and veggies come with it"> 
+                   <p>
+                        Try this hot wings Buffalo chicken wings similar to those served at a 
+                        <br>popular restaurant chain. If you have ever had them, you will love them.
+                   </p>
+                   <br>
+                   <h3><i>Price: $9.99</i></h3>
+                </article>
+                <article>
+                    <br>
+                    <h3>Style Chicken Nachos 2</h3>
+                    <img src="https://www.allrecipes.com/thmb/IImJVGrazMi3SZDbvXsiFz9wDYE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/26924-restuarant-style-nachos-dmfs-4x3-1356-1525-0feb4e8024d74fd6ac3c1cbd15442c1d.jpg" width="350" alt="Chicken Nachos with any seasoning you want">
+                    <p>
+                        These chicken nachos are easily delicious, and sure to be a big hit! 
+                        <br>Hearty enough for a meal. The key flavors are in the chicken topping which also 
+                        <br>makes a great filling for tacos and quesadillas 
+                    </p>
+                    <br>
+                    <h3><i>Price: $10.99</i></h3>
+                </article>
+                <article>
+                    <br>
+                    <h3>Asian Lettuce Wraps 3</h3>
+                    <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F05%2F16%2F2630776-asian-lettuce-wraps-Chefd-1x1-1.jpg&q=60&c=sc&poi=auto&orient=true&h=512" width="350" alt="Asain Lettuce Wraps with seasoned beef">
+                    <p>
+                        These lettuce wraps are bursting with Asian flavors, delicious, and a great idea 
+                        <br>for entertaining or a family-style meal.
+                    </p>
+                    <br>
+                    <h3><i>Price: $11.99</i></h3>
+                    <br>
+                </article>
+            </section>
+            <section>
+                <h2 id="order-form">Place Your Order</h2>
+                <hr/>
+                <br>
+            </section>
+        </main>
+        <form>
+            Insert a menu number you want to order:
+            <input id="menu-number" type="number" min="0" max="3" required>
+            <br><br>
+            Would you like to have any sides/add-ons:
+            <label><input type="radio" name="sides"></label> Drinks
+            <label><input type="radio" name="sides"></label> Salad
+            <label><input type="radio" name="sides"></label> Dessert
+            <br><br>
+            <label><textarea rows="7" cols="42" placeholder="Enter special request if needed!"></textarea></label>
+            <br><br>
+            <label><input id="checkout" type="submit" value="Go To Checkout"></label>
+            <br><br>
+        </form>
+        <footer>
+            <p>
+                Made with love by denomars ❤️
+            </p>
+        </footer>
+    </body>
+</html>
